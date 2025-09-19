@@ -7,12 +7,12 @@ void setup()
 
 void loop()
 {
-  for(int i = 12; i <= 8; i++){
+  for(int i = 12; i >= 8; i++){
     digitalWrite(i, HIGH);
     delay(1000);
   }  
   
-  for(int i = 12; i <= 8; i++){
+  for(int i = 12; i >= 8; i++){
     digitalWrite(i, LOW);
     delay(1000);
   }
